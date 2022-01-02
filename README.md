@@ -1,3 +1,7 @@
+该仓库基于CaiJimmy的hugo-theme-stack，再根据个人喜好进行修改，供个人博客使用。 
+
+再此特别感谢该老哥。
+
 ![Stack](https://i.imgur.com/cCiHOGS.jpg)
 # Hugo Theme Stack
 

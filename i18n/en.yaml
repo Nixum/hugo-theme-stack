@@ -21,13 +21,16 @@ article:
         other: Back
 
     tableOfContents:
-        other: Table of contents
+        other: Contents
 
     relatedContents:
         other: Related contents
 
     lastUpdatedOn:
         other: Last updated on
+
+    tagContents:
+        other: Other Article Tags
 
     readingTime:
         one: "{{ .Count }} minute read"

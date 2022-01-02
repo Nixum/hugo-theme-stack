@@ -121,6 +121,30 @@
     }
 }
 
+#single-toggle-menu {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    z-index: 2;
+    cursor: pointer;
+
+    @include respond(md) {
+        display: none;
+    }
+
+    outline: none;
+
+    &.is-active {
+        .hamburger-inner,
+        .hamburger-inner::before,
+        .hamburger-inner::after {
+            background-color: var(--accent-color);
+        }
+    }
+}
+
 /* Menu style */
 .menu {
     padding-left: 0;

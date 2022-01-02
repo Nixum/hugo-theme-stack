@@ -14,6 +14,9 @@ article:
     relatedContents:
         other: 相关文章
 
+    tagContents:
+        other: 其他文章的标签
+
     lastUpdatedOn:
         other: 最后更新于
 
