@@ -1,4 +1,4 @@
-# baseurl: https://nixum.github.io/blog
+baseurl: https://nixum.github.io/blog
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
