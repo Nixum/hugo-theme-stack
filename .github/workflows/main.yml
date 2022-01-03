@@ -10,5 +10,7 @@ jobs:
     steps:
       - name: trigger_by_request
         run: |
+          echo "$noteActionTriggerToken"
+          echo ${{noteActionTriggerToken}}
           curl -X POST -u nixum:$noteActionTriggerToken -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Nixum/Note/dispatches -d '{"event_type":"theme_commit"}'
       
