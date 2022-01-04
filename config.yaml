@@ -133,7 +133,7 @@ params:
             - tag-cloud
 
         archives:
-            limit: 5
+            limit: 12
 
         tagCloud:
             limit: 50
