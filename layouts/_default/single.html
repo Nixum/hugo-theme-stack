@@ -61,16 +61,16 @@
             </section>
 
             <section class="widget archives">
-                <h2 class="widget-title section-title">{{ T "article.tagContents" }}</h2>
-                {{ partial "widget/single-tag-cloud" . }}
-            </section>
-
-            <section class="widget archives">
                 <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
-                
+
                 <div class="widget--toc">
                     {{ .TableOfContents }}
                 </div>
+            </section>
+
+            <section class="widget archives">
+                <h2 class="widget-title section-title">{{ T "article.tagContents" }}</h2>
+                {{ partial "widget/single-tag-cloud" . }}
             </section>
 
         </aside>
