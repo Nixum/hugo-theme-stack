@@ -1,7 +1,7 @@
 baseurl: http://nixum.cc
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 12
 title: "Nixum Blog"
 
 # Change it to your Disqus shortname before using
@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: /img/favicon.ico
+    favicon: img/favicon.ico
 
     footer:
         since: 2020
@@ -133,7 +133,7 @@ params:
             - tag-cloud
 
         archives:
-            limit: 12
+            limit: 8
 
         tagCloud:
             limit: 50
@@ -238,4 +238,5 @@ markup:
         ordered: true
         startLevel: 2
     highlight:
+        lineNos: true
         noClasses: false
