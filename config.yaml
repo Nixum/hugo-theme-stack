@@ -213,7 +213,7 @@ menu:
 
         - identifier: gitbook
           name: gitbook
-          url: https://nixum.gitbook.io/note
+          url: https://nixum.gitbook.io/note/readme
           params:
             icon: book
 
