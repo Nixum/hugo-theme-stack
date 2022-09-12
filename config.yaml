@@ -67,7 +67,7 @@ params:
             adminLabel:
 
         utterances:
-            repo:
+            repo: https://github.com/Nixum/blog
             issueTerm: pathname
             label:
 
