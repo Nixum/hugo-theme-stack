@@ -41,7 +41,7 @@ params:
 
     sidebar:
         emoji: ✨
-        subtitle: A backend developer, have 3 years work experience, enthusiasm on Go, Java, DevOps.
+        subtitle: A backend developer, have 4 years work experience, enthusiasm on Go, Java, DevOps, K8s.
         avatar:
             enabled: true
             local: true
